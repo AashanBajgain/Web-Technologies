@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+h1{
+    background-color: rgb(202, 202, 40);
+    font-size: 60px;
+    color: black;
+    font-family: 'Karma', serif;
+}
+p{
+    background-color: rgb(66, 169, 131);
+    font-size: 20px;
+    color: black;
+}
