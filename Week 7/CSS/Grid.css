@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Roboto+Condensed&display=swap');
+h1{
+    background-color:rgb(203, 140, 32);
+    font-size: 30px;
+    font-family: 'Prosto One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-shadow: 10px 10px 5px gray;
+}
+.container{
+    width: 90%;
+    margin: 50px auto;
+    border: 5px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:repeat(2,150px);
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+    background-color: black;
+}
+.grid1{
+    background-color: aliceblue;
+}
+.grid2{
+    background-color: antiquewhite;
+}
+.grid3{
+    background-color: aqua;
+}
+.grid4{
+    background-color: aquamarine;
+}
+.grid5{
+    background-color: beige;
+}
+.grid6{
+    background-color: rgb(168, 168, 217);
+}
