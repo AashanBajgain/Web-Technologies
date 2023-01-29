@@ -1,0 +1,104 @@
+
+You created this space today
+.
+SPACE UPDATE:
+HISTORY IS ON
+Messages sent with history on are saved
+Space update:Aashan Bajgain added Jenny Rajak, Sarthak Pandit, Rovin Pokharel, Pragati Bista, Dependra Thapa + 25 more.
+TODAY
+Aashan Bajgain
+,
+3 min
+,
+Hello!
+,3 min,
+UNREAD
+Prabhu Pradhan
+,
+3 min
+,
+New
+hii
+,3 min,
+New
+Jenny Rajak
+,
+2 min
+,
+New
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+  
+</head>
+<body>
+    <img name = "slider" width=200 height=auto>
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;
+
+        images[0] = 'Images/image1.jpg';
+        images[1] = 'Images/image2.jpg';
+        images[2] = 'Images/image3.jpg';
+
+        function slideshow(){
+            document.slider.src = images[i];
+            if(i<images.length-1){
+               i++;
+            }else{
+                i=0;
+            }
+
+            setTimeout("slideshow()",time);
+        }
+
+        window.onload = slideshow;
+    </script>
+
+    
+</body>
+</html>
+
+,2 min,
+New
+Jenny Rajak
+,
+Now
+,
+New
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color-change{
+            background-color:black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <h1>TOGGLE TO DARK AND LIGHT MODE</h1>
+    <p>click the below button to see the dark mode and light mode</p>
+    <button onclick="theme()">Click Me!</button>
+    <script>
+        function theme(){
+            var element = document.body;
+            element.classList.toggle("color-change");
+        }
+    </script>
+    <!-- <script src="js/function.js"></script> -->
+</body>
+</html>
+,Now,
+New
+History is on
+
