@@ -10,6 +10,7 @@ body{
     margin: 30px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(119, 109, 109), -5px -5px 10px rgb(163, 154, 154);
+    background: url("../Personal Website/images/About.jpg");
 }
 
 a{
@@ -58,19 +59,6 @@ header{
     text-decoration: none;
     color: black;
 }
-.navbar ul li a:hover{
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    display: inline-block;
-    width: 30%;
-    padding: auto;
-    margin: -1px 3;
-    text-decoration: none;
-    color: black;
-}
-
 .navbar ul li .btn{
     background-color: rgb(45,45,151);
     color: aliceblue;
@@ -84,6 +72,7 @@ header{
 }
 .btn:hover{
     transform: scale(1.2);
+    color: red;
 }
 
 .body-content{
@@ -104,16 +93,20 @@ header{
 }
 
 .body-content .b-title button{
-    border: none;
-    width: 100px;
-    height: 50px;
-    background: rgb(45, 45, 151);
-    border-radius: 60px;
-    outline: none;
-    color: white;
-    cursor:grab;
+    background-color: rgb(45,45,151);
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .5s;
+    cursor: pointer;
 }
 
+.body-content .b-title button:hover{
+    transform: scale(1.2);
+}
 .body-content .b-title .icons{
 
     display: flex;
