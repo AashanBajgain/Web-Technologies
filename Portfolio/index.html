@@ -10,8 +10,13 @@
   <!-- =====BOX ICONS===== -->
   <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
   <!--===== SCROLL REVEAL =====-->
-  <script src="js/main.js"></script>
   <title>Aashan Bajgain</title>
+  <style>
+    .color-change{
+        background-color:rgb(0, 0, 0);
+        color:white;
+    }
+</style>
 </head>
 
 <body>
@@ -41,7 +46,13 @@
             <a href="#contact" class="nav-link contact">Contact</a>
           </li>
           <li class="nav-item">
-          <a href = "#" onclick="myFunction()"> <img src="img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+         <button onclick="theme()"> <a href = "#" onclick="myFunction()"> <img src="img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a></button>
+          <script>
+            function theme(){
+                var element = document.body;
+                element.classList.toggle("color-change");
+            }
+        </script>
           </li>
         </ul>
       </div>
